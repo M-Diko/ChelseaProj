@@ -1,0 +1,109 @@
+/* Written by Maliviwe Diko  */
+
+/*Header*/
+header {
+    background: #0443a0;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    font: 28px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: left;  
+    
+  }
+
+  
+img {
+    position: relative;
+    top: -17;
+}
+  
+body {
+    
+    background-image: url(assets/chealse.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+}
+
+.menu li {
+    display: inline;  
+}   
+
+.option {
+    color:#fff;
+    font: 18px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    text-decoration: none;
+}
+
+.option:hover {
+    font-weight: bold; 
+}
+
+.Goalie {
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.Defenders {
+    width: 2950px;
+    margin: auto;
+    margin-top: 100px;
+    position: absolute;
+    top: 650px;
+    left: 0;
+}
+
+.Midfielders {
+    width: 2950px;
+    margin: auto;
+    margin-top: 100px;
+    position: absolute;
+    top: 1250px;
+    left: 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.4s;
+    width: 300px;
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    float:left;
+    margin:10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.card:hover {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.container {
+    padding: 2px 2px;
+    text-decoration: none;
+}
+
+h2 {
+    color: #fff;    
+}
+
+
+/*Footer*/
+footer {
+    color: #fff;
+    font: 18px/14px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Written by Maliviwe Diko  */
